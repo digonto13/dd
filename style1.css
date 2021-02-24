@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(F:\LED\assignment\asset\img\images\topography.svg),
+    linear-gradient(120deg,#F43C68,#744603);
+    background-attachment: fixed;
+    background-size: 300px,auto;
+    
+}
+.float-navbar{
+    width: 100%;
+    overflow: auto;
+}
+.link-wrapper{
+    float:left;
+    padding-right:5%;
+    width: 20%;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.float-navbar a{
+    text-decoration: none;
+    color: black;
+    background-color: darkgoldenrod;
+    display: block;
+    font-size: 20px;
+    font-weight: 400px;
+}
+@media screen and (max-width:576px){
+    .link-wrapper{
+        float: none;
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+}
+.
+
